@@ -54,15 +54,22 @@ int main()
 
     if (opcao == 1){
         
-        float mediaA = aritimetico();
+        float media_aritimetica = aritimetico();
 
-        if (mediaA == 0){
+        if (media_aritimetica == 0){
             printf("Tente novamente!");
         }else{
-            printf("Sua media aritimetica: %.2f", mediaA);
+            printf("Sua media aritimetica: %.2f", media_aritimetica);
         }
     }else if (opcao == 2){
-        
+
+        float media_ponderada = ponderado();
+
+        if (media_ponderada == 0){
+            printf("Tente novamente!");
+        }else{
+            printf("Sua media aritimetica: %.2f", media_ponderada);
+        }
     }
     
     
