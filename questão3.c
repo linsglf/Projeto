@@ -89,9 +89,6 @@ float ponderado(){
         }
     }
 
-    printf("%.2f", media);
-    
-    return 0;
 }
 
 int main()
