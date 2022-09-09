@@ -14,7 +14,6 @@ int calculo_imc(){
 
     altura_m = (float)altura_cm / 100;
 
-
     altura_quadrado = altura_m * altura_m;
 
     float imc = round((float)peso / (float)altura_quadrado);
@@ -39,7 +38,7 @@ int main()
       printf("Qual a sua idade: ");
       scanf("%d", &idade);
 
-      int gordura_masculina = (imc * 1.2) + (idade * 0.23) - 16.2; 
+      int gordura_masculina = round((imc * 1.2) + (idade * 0.23) - 16.2); 
 
       printf("Seu imc: %d\n", imc);
       printf("Seu percentual de gordura: %d\n", gordura_masculina);
