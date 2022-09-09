@@ -22,8 +22,6 @@ int main()
     printf("1 - Calcular percentual masculino\n2 - Calcular percentual feminino\nDigite sua opcao: ");
     scanf("%d", &opcao);
 
-    
-
     if (opcao == 1){
 
       float imc = calculo_imc();
