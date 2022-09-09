@@ -43,7 +43,6 @@ float aritimetico (){
 float ponderado(){
      
     int qtd_notas;
-    float teste = 0;
 
     printf("Digite a quantidade de notas a serem calculadas: ");
     scanf("%d", &qtd_notas);
