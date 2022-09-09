@@ -67,8 +67,7 @@ float ponderado(){
 
     float soma = 0;
     
-    for (int i = 0; i < qtd_notas; i++)
-    {
+    for (int i = 0; i < qtd_notas; i++){
         soma = soma + (notas[i] * (float)vet_peso[i]);
     }
 
