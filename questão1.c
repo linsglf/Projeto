@@ -12,13 +12,6 @@ int main()
 
     for (int i = 0; i < 30; i++)
     {
-        printf("%d\n", vet_aleatorio[i]);
-    }
-
-    printf("---------------------------\n");
-
-    for (int i = 0; i < 30; i++)
-    {
         if (vet_aleatorio[i] % 2 == 0)
         {
             vet_par[i] = vet_aleatorio[i];
